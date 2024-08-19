@@ -8,16 +8,18 @@ Scrape Journal Data: Extract titles, abstracts, authors, publish dates, and DOI 
 Data Storage: Save the scraped data in CSV and Excel formats.
 Error Handling: Robust error handling for missing or inaccessible data.
 Compatibility: Works with Chrome and chromedriver.
+
 🛠️ Requirements
 To run this project, you need to have the following Python packages installed:
 
-requests
-beautifulsoup4
+
 pandas
 selenium
+
 You can install these packages using pip:
 
-pip install requests beautifulsoup4 pandas selenium
+pip install  pandas selenium
+
 🔧 Installation
 Clone the Repository:
 
@@ -32,7 +34,8 @@ Download chromedriver:
 
 Ensure you have the latest version of chromedriver that matches your Chrome browser. Place it in a directory included in your system PATH.
 
-⚙️ Usage
+## ⚙️ Usage
+
 Run the Script:
 
 python webscraper.py
@@ -40,10 +43,10 @@ Output Files:
 
 CSV File: output-final.csv - Contains the scraped data in CSV format.
 Excel File: output-final.xlsx - Contains the scraped data in Excel format.
-View the Results:
+
+## View the Results:
 
 The data includes:
-
 Title: Title of the journal article
 Authors: List of authors
 Affiliations-ORCID IDs: Affiliations and ORCID IDs of authors
