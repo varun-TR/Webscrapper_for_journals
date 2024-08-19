@@ -1,4 +1,4 @@
-# Webscrapper_for_journals
+# Webscrapper for journals
 
 ## 📰 Webscraper for Journals 📚
 Welcome to the Webscraper for Journals project! This Python-based web scraping tool is designed to extract and organize information from journal websites, including abstracts, titles, authors, publish dates, DOI URLs, and affiliations.
